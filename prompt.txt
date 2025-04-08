@@ -1,0 +1,34 @@
+Crie um jogo da cobrinha (Snake Game) em HTML/CSS/JavaScript com:
+
+1. Estilo Visual:
+- Tema neon com cores vibrantes (verde, azul, rosa)
+- Cobra com círculos e gradientes
+- Comida pulsante
+- Fundo escuro
+
+2. Mecânicas:
+- 3 dificuldades:
+  * Fácil: velocidade 10 (6 pts)
+  * Médio: velocidade 20 (12 pts) 
+  * Difícil: velocidade 30 (18 pts)
+- Controles por setas
+- Colisão com paredes/corpo
+
+3. Interface:
+- Botões de dificuldade
+- Display de pontuação  
+- Tela de game over estilizada:
+  - "Game Over, obrigado por jogar"
+  - Pontuação final
+  - Botão "Jogar Novamente"
+
+4. Arquivos:
+- index.html
+- style.css  
+- game.js
+
+5. Requisitos:
+- Canvas 400x400px
+- Grid 20x20px
+- Animações fluidas
+- Responsivo

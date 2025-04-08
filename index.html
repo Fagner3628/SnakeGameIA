@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game Neon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Snake Game Neon</h1>
+        
+        <div class="difficulty-selector">
+            <h2>Selecione a Dificuldade:</h2>
+            <button id="easy">Fácil (Velocidade: 5)</button>
+            <button id="medium">Médio (Velocidade: 10)</button>
+            <button id="hard">Difícil (Velocidade: 15)</button>
+        </div>
+
+        <div class="score-display">
+            Pontuação: <span id="score">0</span>
+        </div>
+
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        
+        <div id="gameOverScreen" class="game-over">
+            <h2>Game Over</h2>
+            <p>Obrigado por jogar!</p>
+            <p>Sua pontuação final: <span id="finalScore">0</span></p>
+            <button id="playAgain">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
